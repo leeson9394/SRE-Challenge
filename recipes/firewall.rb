@@ -5,7 +5,9 @@
 # Copyright (c) 2017 The Authors, All Rights Reserved.
 
 
-ports = [22, 80, 443]
+include_recipe 'firewall::default'
+
+ports = node['sre-challenge']['open_ports']
 firewall_rule "open ports #{ports}" do
   port ports
 end
