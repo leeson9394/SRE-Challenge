@@ -1,0 +1,7 @@
+name 'sre_challenge'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures sre_challenge'
+long_description 'Installs/Configures sre_challenge'
+version '0.1.0'
